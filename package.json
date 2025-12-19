@@ -1,0 +1,24 @@
+{
+  "name": "George A. Ramos Tejada - CV",
+  "description": "Professional CV for Data Engineer George A. Ramos Tejada",
+  "version": "1.0.0",
+  "author": {
+    "name": "George A. Ramos Tejada",
+    "email": "georgeramos199@gmail.com",
+    "url": "https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cv",
+    "resume",
+    "data-engineer",
+    "snowflake",
+    "aws",
+    "python",
+    "sql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/my_cv.git"
+  }
+}
