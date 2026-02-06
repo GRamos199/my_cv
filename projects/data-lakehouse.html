@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Lakehouse Simulation - Modern data architecture combining data lake and warehouse patterns">
+    <title>Data Lakehouse Simulation | George Ramos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">George Ramos</a>
+            <ul class="nav-menu">
+                <li><a href="/#projects" class="nav-link">Projects</a></li>
+                <li><a href="/#skills" class="nav-link">Skills</a></li>
+                <li><a href="/#about" class="nav-link">About</a></li>
+                <li><a href="/#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="case-study">
+            <div class="case-study-header">
+                <a href="/" class="back-link">← Back to Portfolio</a>
+                <h1 class="case-study-title">🏗️ Data Lakehouse Simulation</h1>
+                <p class="case-study-subtitle">End-to-end implementation of a modern data lakehouse architecture unifying data lake and warehouse patterns</p>
+            </div>
+
+            <div class="case-study-content">
+                <div class="case-section">
+                    <h3>🎯 Context</h3>
+                    <p>
+                        As organizations grow, their data needs become increasingly complex. Traditional data lakes become difficult to query, 
+                        while data warehouses have high costs and limited flexibility. This project demonstrates the implementation of a 
+                        lakehouse architecture—combining the scalability of data lakes with the queryability of data warehouses.
+                    </p>
+                </div>
+
+                <div class="case-section">
+                    <h3>⚠️ Problem</h3>
+                    <ul>
+                        <li>Data lakes lack schema enforcement and ACID transactions</li>
+                        <li>Data warehouses are expensive and less flexible for unstructured data</li>
+                        <li>Need for a unified platform that combines benefits of both approaches</li>
+                        <li>Difficulty managing data quality and versioning at scale</li>
+                        <li>Requirement for time-travel and data lineage capabilities</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>✨ Solution</h3>
+                    <p>
+                        Designed and implemented a complete lakehouse architecture using Apache Iceberg for ACID transactions, 
+                        Snowflake for query execution, and Python for orchestration. The system manages raw data ingestion, 
+                        transformation, and analytics with full data governance.
+                    </p>
+                    <ul>
+                        <li>Raw data zone ingesting JSON, CSV, and semi-structured data</li>
+                        <li>Bronze/Silver/Gold layers using Iceberg for schema evolution</li>
+                        <li>dbt for data transformations and lineage tracking</li>
+                        <li>Snowflake for unified query engine and analytics</li>
+                        <li>Data quality validation at each layer</li>
+                        <li>Time-travel and versioning capabilities built-in</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>🛠️ Tech Stack</h3>
+                    <div class="stack-tags">
+                        <span class="stack-tag">Apache Iceberg</span>
+                        <span class="stack-tag">Snowflake</span>
+                        <span class="stack-tag">Python</span>
+                        <span class="stack-tag">dbt</span>
+                        <span class="stack-tag">SQL</span>
+                        <span class="stack-tag">Parquet</span>
+                        <span class="stack-tag">Docker</span>
+                    </div>
+                </div>
+
+                <div class="case-section">
+                    <h3>💼 What I Did</h3>
+                    <ul>
+                        <li>Designed the three-layer lakehouse architecture (Bronze/Silver/Gold)</li>
+                        <li>Implemented Iceberg tables with proper partitioning and compaction strategies</li>
+                        <li>Created data ingestion pipelines for multiple data formats and sources</li>
+                        <li>Developed dbt transformation models with proper testing and documentation</li>
+                        <li>Built data quality validation using Great Expectations</li>
+                        <li>Implemented schema evolution strategies for changing requirements</li>
+                        <li>Created documentation and best practices guide for the architecture</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>📈 Key Features Implemented</h3>
+                    <ul>
+                        <li><strong>ACID Transactions:</strong> Data consistency even with concurrent writes</li>
+                        <li><strong>Time-Travel Queries:</strong> Query historical versions of data</li>
+                        <li><strong>Schema Evolution:</strong> Add/remove columns without data reprocessing</li>
+                        <li><strong>Data Lineage:</strong> Complete visibility of data transformations</li>
+                        <li><strong>Performance:</strong> Vectorized parquet format with statistics for fast queries</li>
+                        <li><strong>Cost Optimization:</strong> Partitioning and compaction reduce storage and compute costs</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>💡 Learning Outcomes</h3>
+                    <p>
+                        This project demonstrates modern data architecture patterns that enterprise organizations are adopting. 
+                        It showcases hands-on understanding of lakehouse concepts, data governance, and scalable data platforms.
+                    </p>
+                </div>
+
+                <div class="case-section">
+                    <h3>🔗 Learn More</h3>
+                    <p>
+                        <a href="https://github.com/GRamos199/data-lakehouse-simulation" target="_blank" class="cta-button">
+                            View Code on GitHub →
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 George A. Ramos Tejada. All rights reserved.</p>
+    </footer>
+</body>
+</html>

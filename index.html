@@ -3,277 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional CV of George A. Ramos Tejada - Data Engineer">
+    <meta name="description" content="George Ramos - Data Engineer & Full Stack Developer. Specialized in AWS, Snowflake, and data automation.">
     <meta name="author" content="George A. Ramos Tejada">
-    <title>George A. Ramos Tejada | Data Engineer</title>
+    <title>George Ramos | Data Engineer & Full Stack Developer</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar with profile and contact info -->
-        <aside class="sidebar">
-            <div class="sidebar-content">
-                <div class="profile-photo">
-                    <img src="images/profile.jpg" alt="George A. Ramos Tejada" class="photo">
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">George Ramos</a>
+            <ul class="nav-menu">
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-                <div class="profile-info">
-                    <h1 class="name">George A.<br>Ramos Tejada</h1>
-                    <p class="title">Data Engineer</p>
-                </div>
-
-                <div class="contact-info">
-                    <h3 class="section-title">Contact</h3>
-                    <div class="contact-item">
-                        <span class="icon">📍</span>
-                        <p>Santo Domingo, Dominican Republic</p>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">📞</span>
-                        <a href="tel:+18299895997">829-989-5997</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">✉️</span>
-                        <a href="mailto:georgeramos199@gmail.com">georgeramos199@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">🔗</span>
-                        <a href="https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
-                    </div>
-                </div>
-
-                <div class="skills-sidebar">
-                    <h3 class="section-title">Main Technologies</h3>
-                    <div class="skills-tags">
-                        <span class="tag">Snowflake</span>
-                        <span class="tag">AWS</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">Airflow</span>
-                        <span class="tag">ETL/ELT</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Power BI</span>
-                    </div>
-                </div>
-
-                <div class="languages">
-                    <h3 class="section-title">Languages</h3>
-                    <div class="language-item">
-                        <p><strong>Spanish</strong> - Native</p>
-                    </div>
-                    <div class="language-item">
-                        <p><strong>English</strong> - Professional</p>
-                    </div>
-                </div>
-
-                <div class="projects-sidebar">
-                    <h3 class="section-title">Projects</h3>
-                    <div class="projects-buttons">
-                        <a href="https://github.com/GRamos199/call-center-analytics" target="_blank" rel="noopener noreferrer" class="project-btn">
-                            <span class="project-icon">📊</span>
-                            <span class="project-name">Call Center Analytics</span>
-                        </a>
-                        <a href="https://github.com/GRamos199/data-lakehouse-simulation" target="_blank" rel="noopener noreferrer" class="project-btn">
-                            <span class="project-icon">🏗️</span>
-                            <span class="project-name">Data Lakehouse Simulation</span>
-                        </a>
-                        <a href="https://github.com/GRamos199/data-quality-framework" target="_blank" rel="noopener noreferrer" class="project-btn">
-                            <span class="project-icon">✅</span>
-                            <span class="project-name">Data Quality Framework</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-        <!-- Main content area with CV sections -->
-        <main class="main-content">
-            <!-- Professional Summary -->
-            <section class="section">
-                <h2 class="section-heading">Professional Summary</h2>
-                <p class="summary-text">
-                    Data Engineer with strong background in data warehousing, cloud-based data platforms, and analytics engineering. 
-                    Experienced in designing and implementing scalable data architectures using <strong>Snowflake</strong>, <strong>AWS</strong>, 
-                    and modern <strong>ETL/ELT</strong> tools. Hands-on expertise in Python-driven data pipelines, JSON data processing, 
-                    Iceberg tables, and building analytics applications with Streamlit deployed on Snowflake. 
-                    Proven ability to unify Data Lakes and Data Warehouses into <strong>Lakehouse architectures</strong> 
-                    that enable reliable, high-performance analytics and business insights.
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Full Stack Engineer</h1>
+                <p class="hero-subtitle">
+                    Specialized in AWS, Snowflake, and data automation. I build scalable solutions for call centers and data platforms.
                 </p>
-            </section>
-
-            <!-- Professional Experience -->
-            <section class="section">
-                <h2 class="section-heading">Professional Experience</h2>
-
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Software Engineer Specialist (Data Engineering Focus)</h3>
-                        <span class="date-badge">2024 – Present</span>
-                    </div>
-                    <p class="company">Horatio</p>
-                    <ul class="experience-list">
-                        <li>Designed and implemented <strong>automated data pipelines</strong> using <strong>Astronomer (Airflow)</strong>, <strong>AWS Glue</strong>, <strong>AWS Lambda</strong>, and <strong>Snowflake</strong>, improving data availability and overall system efficiency by <strong>40%</strong>.</li>
-                        <li>Contributed to the design and implementation of a <strong>Lakehouse architecture</strong>, unifying a centralized <strong>Data Lake</strong> with <strong>Snowflake Data Warehouse</strong> for scalable analytics.</li>
-                        <li>Built robust <strong>ETL/ELT workflows</strong> to ingest data from APIs and external sources, transforming <strong>JSON</strong> and semi-structured data into analytics-ready tables in Snowflake.</li>
-                        <li>Developed <strong>dynamic data transformations</strong> using SQL and Python, including pivot-style transformations and schema normalization.</li>
-                        <li>Created interactive <strong>analytics dashboards using Streamlit</strong>, deploying them as <strong>containers within Snowflake</strong> to provide real-time insights to stakeholders.</li>
-                        <li>Migrated legacy data processes from Google Sheets to production-grade data pipelines, reducing manual work by <strong>60%</strong> and increasing data reliability.</li>
-                        <li>Actively worked with <strong>Iceberg tables</strong> to support scalable and cost-efficient data storage and querying.</li>
-                    </ul>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" target="_blank" class="btn btn-secondary btn-icon">
+                        <img src="images/folder.png" alt="Projects" class="btn-icon-img">
+                        Projects
+                    </a>
+                    <a href="cv.html" class="btn btn-secondary" target="_blank" class="btn btn-secondary btn-icon">
+                        <img src="images/cv.png" alt="Resume" class="btn-icon-img">
+                        Resume
+                    </a>
+                    <a href="https://github.com/GRamos199" target="_blank" class="btn btn-secondary btn-icon">
+                        <img src="images/github.png" alt="GitHub" class="btn-icon-img">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/" target="_blank" class="btn btn-secondary btn-icon">
+                        <img src="images/linkedin.png" alt="LinkedIn" class="btn-icon-img">
+                        LinkedIn
+                    </a>
                 </div>
-
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Implementation Specialist / Data Analytics</h3>
-                        <span class="date-badge">2021 – 2024</span>
-                    </div>
-                    <p class="company">iSales Solutions</p>
-                    <ul class="experience-list">
-                        <li>Led end-to-end implementations of CRM and data platforms, including system design, configuration, data migration, and user training.</li>
-                        <li>Designed and standardized <strong>data management and reporting processes</strong> using Airtable as a centralized data layer.</li>
-                        <li>Built automated data workflows with <strong>Zapier</strong>, integrating CRMs, Airtable, and external tools, reducing manual processes by over <strong>30%</strong>.</li>
-                        <li>Supported analytics initiatives by ensuring clean, structured, and accessible data for reporting and decision-making.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Data Analytics / Process & Automation Analyst</h3>
-                        <span class="date-badge">2018 – 2020</span>
-                    </div>
-                    <p class="company">CORASA</p>
-                    <ul class="experience-list">
-                        <li>Analyzed and interpreted operational data related to customs processes to identify automation opportunities.</li>
-                        <li>Developed reports, dashboards, and automated solutions to improve efficiency and regulatory compliance.</li>
-                        <li>Applied statistical analysis and process optimization techniques to support strategic decisions.</li>
-                    </ul>
-                </div>
-            </section>
-            
-            <!-- Core Skills -->
-            <section class="section">
-                <h2 class="section-heading">Core Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4>Data Engineering</h4>
-                        <p>ETL / ELT, Data Pipelines, Data Modeling, Data Quality</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Data Platforms</h4>
-                        <p>Snowflake, Snowflake Containers, Iceberg Tables, Data Warehousing</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Cloud & Orchestration</h4>
-                        <p>AWS (Glue, Lambda), Astronomer (Airflow)</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Programming</h4>
-                        <p>Python, SQL</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Data Processing</h4>
-                        <p>JSON ingestion & normalization, semi-structured data</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Analytics & Visualization</h4>
-                        <p>Streamlit, Power BI</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Databases</h4>
-                        <p>Snowflake, SQL Server</p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Other Tools</h4>
-                        <p>Git, Power Query, Airtable, Zapier</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Education -->
-            <section class="section">
-                <h2 class="section-heading">Education</h2>
-                <div class="education-item">
-                    <h3>B.S. in Computer Systems Engineering</h3>
-                    <p class="education-school">UNPHU | 2017 – 2025</p>
-                </div>
-            </section>
-
-            <!-- Certifications -->
-            <section class="section">
-                <h2 class="section-heading">Certifications & Training</h2>
-                <ul class="certifications-list">
-                    <li><strong>Google: AI & Productivity</strong> – Santander (2024)</li>
-                    <li><strong>Microsoft Power BI Data Analyst</strong> – Microsoft (2024)</li>
-                    <li><strong>Zapier Marketing Automation</strong> – Udemy (2023)</li>
-                    <li><strong>The Complete Guide to Airtable</strong> – Udemy (2024)</li>
-                </ul>
-            </section>
-
-            <!-- Additional Notes -->
-            <!-- <section class="section">
-                <h2 class="section-heading">Additional Notes</h2>
-                <ul class="notes-list">
-                    <li>Strong analytical mindset with hands-on experience bridging <strong>data engineering and analytics</strong>.</li>
-                    <li>Comfortable working in agile, cloud-based environments and collaborating with cross-functional teams.</li>
-                    <li>Focused on building <strong>scalable, reliable, and business-oriented data platforms</strong>.</li>
-                </ul>
-            </section> -->
-
-            <div class="pdf-section">
-                <button id="downloadPdfBtn" class="pdf-button">📥 Download CV as PDF</button>
             </div>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="George A. Ramos Tejada" class="profile-img">
+            </div>
+        </div>
+    </section>
 
-            <footer class="footer">
-                <p>&copy; 2025 George A. Ramos Tejada. All rights reserved.</p>
-            </footer>
-        </main>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script>
-        document.getElementById('downloadPdfBtn').addEventListener('click', async function() {
-            const { jsPDF } = window.jspdf;
-            const element = document.querySelector('.container');
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Building scalable data solutions that drive real business value</p>
             
-            try {
-                const canvas = await html2canvas(element, {
-                    scale: 2,
-                    useCORS: true,
-                    logging: false,
-                    backgroundColor: '#ffffff'
-                });
-                
-                const imgWidth = 210;
-                const imgHeight = (canvas.height * imgWidth) / canvas.width;
-                const pdf = new jsPDF({
-                    orientation: 'portrait',
-                    unit: 'mm',
-                    format: 'a4'
-                });
-                
-                let heightLeft = imgHeight;
-                let position = 0;
-                const imgData = canvas.toDataURL('image/png');
-                
-                while (heightLeft >= 0) {
-                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
-                    heightLeft -= 297;
-                    position -= 297;
-                    if (heightLeft > 0) {
-                        pdf.addPage();
-                    }
-                }
-                
-                pdf.save('george_ramos.pdf');
-            } catch (error) {
-                console.error('Error generating PDF:', error);
-                alert('Error generating PDF. Please try again.');
-            }
-        });
-    </script>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3 class="project-title">Call Center Analytics</h3>
+                    <p class="project-description">Real-time analytics dashboard for call center performance metrics, cost tracking, and agent productivity analysis.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Snowflake</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <a href="projects/call-center-analytics.html" class="project-link">View Case Study →</a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-icon">🏗️</div>
+                    <h3 class="project-title">Data Lakehouse Simulation</h3>
+                    <p class="project-description">End-to-end implementation of a modern data lakehouse architecture unifying data lake and warehouse patterns.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Apache Iceberg</span>
+                        <span class="tech-tag">Snowflake</span>
+                        <span class="tech-tag">dbt</span>
+                    </div>
+                    <a href="projects/data-lakehouse.html" class="project-link">View Case Study →</a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-icon">✅</div>
+                    <h3 class="project-title">Data Quality Framework</h3>
+                    <p class="project-description">Automated data quality validation framework with comprehensive testing and monitoring for data pipelines.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Great Expectations</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Snowflake</span>
+                    </div>
+                    <a href="projects/data-quality-framework.html" class="project-link">View Case Study →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Core Competencies</h2>
+            <p class="section-subtitle">Expertise across data engineering, cloud platforms, and full-stack development</p>
+            
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4 class="skill-group-title">Data Engineering</h4>
+                    <p>ETL/ELT pipelines • Data modeling • Data quality frameworks • Apache Airflow • Python</p>
+                </div>
+
+                <div class="skill-group">
+                    <h4 class="skill-group-title">Cloud & Orchestration</h4>
+                    <p>AWS Glue • AWS Lambda • Astronomer • Terraform • CI/CD pipelines</p>
+                </div>
+
+                <div class="skill-group">
+                    <h4 class="skill-group-title">Data Platforms</h4>
+                    <p>Snowflake • Apache Iceberg • Data Warehousing • Lakehouse Architecture</p>
+                </div>
+
+                <div class="skill-group">
+                    <h4 class="skill-group-title">Programming & Databases</h4>
+                    <p>Python • SQL • Git • SQL Server • Data normalization</p>
+                </div>
+
+                <div class="skill-group">
+                    <h4 class="skill-group-title">Analytics & Visualization</h4>
+                    <p>Streamlit • Power BI • Dashboard design • Real-time analytics</p>
+                </div>
+
+                <div class="skill-group">
+                    <h4 class="skill-group-title">Integration & Automation</h4>
+                    <p>API integration • JSON processing • Semi-structured data • Zapier • Airtable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a full-stack engineer with 5+ years of experience in data engineering, cloud automation, and analytics. 
+                        My passion is building <strong>scalable, reliable data solutions</strong> that solve real business problems.
+                    </p>
+                    
+                    <p>
+                        Currently working as a <strong>Software Engineer Specialist</strong> at Horatio, where I design and implement 
+                        automated data pipelines, lakehouse architectures, and analytics platforms using AWS, Snowflake, and Python.
+                    </p>
+
+                    <h3>Key Highlights</h3>
+                    <ul class="about-list">
+                        <li>Built data pipelines improving system efficiency by <strong>40%</strong></li>
+                        <li>Migrated legacy processes to production-grade solutions, reducing manual work by <strong>60%</strong></li>
+                        <li>Designed lakehouse architectures unifying data lakes with data warehouses</li>
+                        <li>Led implementations across CRM platforms, data systems, and automation workflows</li>
+                        <li>Fluent in Spanish and English with professional communication skills</li>
+                    </ul>
+
+                    <h3>Education</h3>
+                    <p>B.S. in Computer Systems Engineering • UNPHU (2017 – 2025)</p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <p>Major Projects</p>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">40%</div>
+                        <p>Avg Efficiency Gain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's talk about data, engineering, or your next project</p>
+            
+            <div class="contact-cards">
+                <a href="mailto:georgeramos199@gmail.com" class="contact-card">
+                    <img src="images/gmail.png" alt="Email" class="contact-icon-img">
+                    <h4>Email</h4>
+                    <p>georgeramos199@gmail.com</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/" target="_blank" class="contact-card">
+                    <img src="images/linkedin.png" alt="LinkedIn" class="contact-icon-img">
+                    <h4>LinkedIn</h4>
+                    <p>George Ramos</p>
+                </a>
+
+                <a href="https://github.com/GRamos199" target="_blank" class="contact-card">
+                    <img src="images/github.png" alt="GitHub" class="contact-icon-img">
+                    <h4>GitHub</h4>
+                    <p>GRamos199</p>
+                </a>
+
+                <!-- <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h4>Location</h4>
+                    <p>Santo Domingo, Dominican Republic</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 George A. Ramos Tejada. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

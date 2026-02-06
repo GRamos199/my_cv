@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Quality Framework - Automated validation framework for ensuring data pipeline reliability">
+    <title>Data Quality Framework | George Ramos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">George Ramos</a>
+            <ul class="nav-menu">
+                <li><a href="/#projects" class="nav-link">Projects</a></li>
+                <li><a href="/#skills" class="nav-link">Skills</a></li>
+                <li><a href="/#about" class="nav-link">About</a></li>
+                <li><a href="/#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="case-study">
+            <div class="case-study-header">
+                <a href="/" class="back-link">← Back to Portfolio</a>
+                <h1 class="case-study-title">✅ Data Quality Framework</h1>
+                <p class="case-study-subtitle">Automated data quality validation framework with comprehensive testing and monitoring for data pipelines</p>
+            </div>
+
+            <div class="case-study-content">
+                <div class="case-section">
+                    <h3>🎯 Context</h3>
+                    <p>
+                        Data quality is critical for business intelligence and analytics. Many organizations struggle with data 
+                        pipeline failures going unnoticed, bad data reaching dashboards, and lack of visibility into data quality issues. 
+                        This framework provides automated, continuous data quality monitoring across all stages of the data pipeline.
+                    </p>
+                </div>
+
+                <div class="case-section">
+                    <h3>⚠️ Problem</h3>
+                    <ul>
+                        <li>No systematic approach to data quality validation</li>
+                        <li>Data quality issues discovered too late (by end users)</li>
+                        <li>Manual testing is slow and doesn't scale</li>
+                        <li>Lack of visibility into data quality metrics</li>
+                        <li>Difficult to track data quality issues over time</li>
+                        <li>No clear standards for what constitutes "good" data</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>✨ Solution</h3>
+                    <p>
+                        Built a comprehensive data quality framework using Great Expectations that automatically validates data 
+                        at ingestion, transformation, and output stages. The framework includes expectations, data profiling, 
+                        monitoring, and alerting capabilities.
+                    </p>
+                    <ul>
+                        <li>Automated expectations for schema, completeness, accuracy, and consistency</li>
+                        <li>Data profiling to understand data distributions and anomalies</li>
+                        <li>Continuous monitoring with automated validations on each data load</li>
+                        <li>Alerting system that notifies teams of quality issues immediately</li>
+                        <li>Historical tracking of data quality metrics</li>
+                        <li>Integration with Snowflake for automated testing</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>🛠️ Tech Stack</h3>
+                    <div class="stack-tags">
+                        <span class="stack-tag">Great Expectations</span>
+                        <span class="stack-tag">Python</span>
+                        <span class="stack-tag">Snowflake</span>
+                        <span class="stack-tag">SQL</span>
+                        <span class="stack-tag">Pandas</span>
+                        <span class="stack-tag">Pytest</span>
+                        <span class="stack-tag">AWS Lambda</span>
+                    </div>
+                </div>
+
+                <div class="case-section">
+                    <h3>💼 What I Did</h3>
+                    <ul>
+                        <li>Designed the data quality framework architecture and validation strategy</li>
+                        <li>Created expectations suites for all critical data assets</li>
+                        <li>Implemented automated data profiling to establish baselines</li>
+                        <li>Built validation pipelines that run on every data load</li>
+                        <li>Created custom validators for business-specific rules</li>
+                        <li>Developed monitoring dashboards for data quality metrics</li>
+                        <li>Set up alerting system with Slack integration for critical issues</li>
+                        <li>Created documentation and training materials for the framework</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>📊 Validations Implemented</h3>
+                    <ul>
+                        <li><strong>Schema Validation:</strong> Ensure correct data types and column names</li>
+                        <li><strong>Completeness:</strong> Check for missing or null values</li>
+                        <li><strong>Uniqueness:</strong> Validate primary key constraints</li>
+                        <li><strong>Range Checks:</strong> Ensure values fall within expected ranges</li>
+                        <li><strong>Pattern Matching:</strong> Validate formats (emails, phone numbers, etc.)</li>
+                        <li><strong>Referential Integrity:</strong> Check foreign key relationships</li>
+                        <li><strong>Anomaly Detection:</strong> Identify outliers and unusual patterns</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>📈 Results & Impact</h3>
+                    <ul>
+                        <li><strong>Quality Assurance:</strong> Catch data issues automatically before they impact users</li>
+                        <li><strong>Faster Root Cause Analysis:</strong> Detailed validation reports speed up issue investigation</li>
+                        <li><strong>Reduced Downtime:</strong> Automated testing prevents bad data from reaching production</li>
+                        <li><strong>Scalability:</strong> Framework scales with number of data assets and validations</li>
+                        <li><strong>Cost Savings:</strong> Prevents costly business decisions based on bad data</li>
+                    </ul>
+                </div>
+
+                <div class="case-section">
+                    <h3>🔗 Learn More</h3>
+                    <p>
+                        <a href="https://github.com/GRamos199/data-quality-framework" target="_blank" class="cta-button">
+                            View Code on GitHub →
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 George A. Ramos Tejada. All rights reserved.</p>
+    </footer>
+</body>
+</html>
