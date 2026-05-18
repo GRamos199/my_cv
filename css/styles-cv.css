@@ -436,3 +436,46 @@ body {
         font-size: 12px;
     }
 }
+
+/* ============================================
+   PRINT / PDF
+   ============================================ */
+
+@page {
+    size: A4;
+    margin: 12mm;
+}
+
+@media print {
+    body {
+        background: #ffffff;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .cv-container {
+        box-shadow: none;
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .cv-back-btn {
+        display: none;
+    }
+
+    .cv-section,
+    .cv-experience-item,
+    .cv-skill-box,
+    .cv-education {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .cv-main {
+        padding: 25px 22px;
+    }
+
+    .cv-sidebar {
+        padding: 28px 20px;
+    }
+}

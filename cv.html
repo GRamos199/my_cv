@@ -3,216 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="George A. Ramos Tejada - Data Engineer | Snowflake, AWS, Python, ETL/ELT Pipeline Development">
-    <meta name="keywords" content="Data Engineer, Snowflake, AWS, ETL, ELT, Python, SQL, Data Warehouse, Lakehouse, Apache Airflow">
+    <meta name="description" content="George Ramos - Data Engineer Resume">
     <meta name="author" content="George A. Ramos Tejada">
-    <title>George Ramos | Full CV</title>
-    <link rel="icon" href="images/portafolio.png" type="image/png">
-    <link rel="stylesheet" href="css/styles-cv.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>George Ramos | Resume</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7JP0ZHW8Q1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-7JP0ZHW8Q1');
+        </script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --text: #111111;
+            --muted: #444444;
+            --line: #d9d9d9;
+            --bg: #ffffff;
+        }
+
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.35;
+            font-size: 11pt;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 28px 24px 32px;
+        }
+
+        .header {
+            border-bottom: 1px solid var(--text);
+            padding-bottom: 10px;
+            margin-bottom: 14px;
+        }
+
+        h1 {
+            font-size: 22pt;
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            margin-bottom: 4px;
+        }
+
+        .role {
+            font-size: 12pt;
+            margin-bottom: 8px;
+        }
+
+        .contact-line {
+            font-size: 10.5pt;
+            color: var(--muted);
+        }
+
+        .contact-line a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .section {
+            margin-top: 14px;
+        }
+
+        .section h2 {
+            font-size: 11pt;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 3px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 6px;
+            text-align: left;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        ul {
+            margin-left: 18px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 2px;
+        }
+
+        .row strong {
+            font-size: 11pt;
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        .meta {
+            font-style: italic;
+            margin-bottom: 6px;
+            color: var(--muted);
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+        }
+
+        .project {
+            margin-bottom: 10px;
+        }
+
+        .skills-line {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            margin-top: 14px;
+            padding-top: 8px;
+            border-top: 1px solid var(--line);
+            font-size: 9.5pt;
+            color: var(--muted);
+            text-align: center;
+        }
+
+        .print-note {
+            margin-bottom: 12px;
+            font-size: 9.5pt;
+        }
+
+        @media print {
+            .page {
+                max-width: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .print-note {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="cv-container">
-        <!-- Sidebar -->
-        <aside class="cv-sidebar">
-            <div class="cv-sidebar-content">
-                <div class="cv-profile-photo">
-                    <img src="images/profile.jpg" alt="George A. Ramos Tejada" class="cv-photo">
-                </div>
+    <main class="page">
+        <p class="print-note muted">Export-ready version for PDF.</p>
 
-                <div class="cv-profile-info">
-                    <h1 class="cv-name">George A. Ramos Tejada</h1>
-                    <p class="cv-title">Data Engineer</p>
-                </div>
+        <header class="header">
+            <h1>George A. Ramos Tejada</h1>
+            <p class="role">Data Engineer</p>
+            <p class="contact-line">
+                Santo Domingo, Dominican Republic | georgeramos199@gmail.com |
+                <a href="https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+                <a href="https://github.com/GRamos199" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                <a href="https://gramos199.github.io/my_cv/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+            </p>
+        </header>
 
-                <div class="cv-contact-info">
-                    <h3 class="cv-section-title">Contact</h3>
-                    <div class="cv-contact-item">
-                        <span class="cv-icon">📍</span>
-                        <p>Santo Domingo, Dominican Republic</p>
-                    </div>
-                    <div class="cv-contact-item">
-                        <span class="cv-icon">📞</span>
-                        <a href="tel:+18299895997">829-989-5997</a>
-                    </div>
-                    <div class="cv-contact-item">
-                        <span class="cv-icon">✉️</span>
-                        <a href="mailto:georgeramos199@gmail.com">georgeramos199@gmail.com</a>
-                    </div>
-                    <div class="cv-contact-item">
-                        <span class="cv-icon">🔗</span>
-                        <a href="https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/" target="_blank">LinkedIn</a>
-                    </div>
-                </div>
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p>
+                Data Engineer with 4+ years of progressive experience designing, building, and optimizing enterprise-scale data pipelines and cloud-based architectures.
+                I design and build enterprise-scale data pipelines, cloud platforms, and lakehouse architectures using Snowflake, AWS, and Apache Airflow,
+                transforming raw data into actionable insights. Focused on creating scalable, production-grade data solutions that improve performance,
+                reduce operational costs, and support data-driven decision-making across organizations.
+            </p>
+        </section>
 
-                <div class="cv-skills-sidebar">
-                    <h3 class="cv-section-title">Technical Skills</h3>
-                    <div class="cv-skills-tags">
-                        <span class="cv-tag">Snowflake</span>
-                        <span class="cv-tag">AWS Glue</span>
-                        <span class="cv-tag">AWS Lambda</span>
-                        <span class="cv-tag">Apache Airflow</span>
-                        <span class="cv-tag">Astronomer</span>
-                        <span class="cv-tag">Apache Iceberg</span>
-                        <span class="cv-tag">Python</span>
-                        <span class="cv-tag">SQL</span>
-                        <span class="cv-tag">ETL/ELT</span>
-                        <span class="cv-tag">Data Warehousing</span>
-                        <span class="cv-tag">Lakehouse Architecture</span>
-                        <span class="cv-tag">Data Pipelines</span>
-                        <span class="cv-tag">Streamlit</span>
-                        <span class="cv-tag">Power BI</span>
-                        <span class="cv-tag">Git</span>
-                        <span class="cv-tag">Docker</span>
-                        <span class="cv-tag">Pandas</span>
-                        <span class="cv-tag">PySpark</span>
-                        <span class="cv-tag">JSON Processing</span>
-                    </div>
-                </div>
-
-                <div class="cv-languages">
-                    <h3 class="cv-section-title">Languages</h3>
-                    <p><strong>Spanish</strong> - Native</p>
-                    <p><strong>English</strong> - Professional</p>
-                </div>
+        <section class="section">
+            <h2>Professional Experience</h2>
+            <!-- horatio -->
+            <div class="row">
+                <strong>Data Engineer</strong>
+                <span class="muted">2024-2026</span>
             </div>
-        </aside>
+            <p class="meta">Horatio</p>
+            <ul>
+                <li>Architected and deployed automated ETL/ELT pipelines improving system availability by 40% and reducing latency by 35%.</li>
+                <li>Implemented lakehouse patterns and analytics platforms using Snowflake, AWS services, and Apache Airflow.</li>
+                <li>Optimized Snowflake cluster configurations and SQL queries, improving query performance by 45%.</li>
+                <li>Migrated manual workflows to production-grade automated pipelines, eliminating 60% of manual work.</li>
+                <li>Led end-to-end platform implementation initiatives affecting 100+ users.</li>
+                <li>Built data architectures that enable organizations to manage data as a strategic asset.</li>
+            </ul>
+            <!-- iSales Solutions -->
+            <div class="row">
+                <strong>Data Analytics Specialist / Implementation Engineer</strong>
+                <span class="muted">2021-2024</span>
+            </div>
+            <p class="meta">iSales Solutions</p>
+            <ul>
+                <li>Led comprehensive data platform implementations including system architecture design, ETL configuration, data migration strategies, and end-user training for CRM and analytics solutions.</li>
+                <li>Designed centralized data layer using Airtable with relational schema design; implemented data governance standards and validation rules, ensuring data accuracy and consistency across enterprise systems.</li>
+                <li>Built 40+ automated data workflows using Zapier and custom integrations connecting CRM platforms, cloud tools, and data repositories; eliminated 30% of manual processes and improved data synchronization reliability.</li>
+                <li>Developed analytics infrastructure for data transformation and reporting; designed dashboards and KPI tracking systems to support business intelligence and executive decision-making.</li>
+                <li>Created comprehensive data documentation, ETL dependency mapping, and process orchestration strategies to support scalability and maintainability.</li>
+            </ul>
+            <!-- Corasa -->
+            <div class="row">
+                <strong>Data Analytics & Process Automation Analyst</strong>
+                <span class="muted">2018-2020</span>
+            </div>
+            <p class="meta">CORASA</p>
+            <ul>
+                <li>Analyzed complex operational datasets related to customs processes; performed statistical analysis and data mining to identify process bottlenecks and automation opportunities, reducing processing time by 25%.</li>
+                <li>Developed dashboards, KPI reports, and automated reports using Excel/VBA and SQL queries to track operational metrics and regulatory compliance; delivered insights to support strategic planning and operational optimization.</li>
+                <li>Designed automated data collection and aggregation procedures to consolidate data from multiple sources; implemented data quality checks and validation rules to ensure accuracy of critical operational metrics.</li>
+                <li>Collaborated with stakeholders to understand data requirements; translated business needs into technical specifications for data solutions and process improvements.</li>
+            </ul>
+        </section>
 
-        <!-- Main Content -->
-        <main class="cv-main">
-            <!-- Back Button -->
-            <a href="index.html" class="cv-back-btn">← Back to Portfolio</a>
+        <section class="section">
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Improved data platform availability by 40% and reduced pipeline latency by 35% through production ETL/ELT architecture.</li>
+                <li>Designed enterprise lakehouse architecture unifying data lake and cloud warehouse for scalable analytics.</li>
+                <li>Reduced manual operational effort by 60% by migrating legacy workflows to automated pipelines.</li>
+                <li>Improved Snowflake query performance by 45% through workload and SQL optimization.</li>
+                <li>Delivered platform implementations and CRM-aligned data systems for 100+ users.</li>
+                <li>Bilingual professional with strong cross-functional communication (Spanish native, English fluent).</li>
+            </ul>
+        </section>
 
-            <!-- Summary -->
-            <section class="cv-section">
-                <h2 class="cv-heading">Professional Summary</h2>
-                <p class="cv-text">
-                    Results-driven Data Engineer with 4+ years of progressive experience designing, building, and optimizing 
-                    enterprise-scale data pipelines and cloud-based data architectures. Expert in ETL/ELT development, data warehousing, 
-                    and modern data lakehouse patterns using Snowflake, AWS services, and Apache Airflow. Proven track record of 
-                    delivering scalable solutions that improve data availability, reduce operational overhead, and enable data-driven 
-                    business decisions. Skilled in Python, SQL, and data transformation frameworks with strong focus on data quality, 
-                    performance optimization, and analytics enablement.
-                </p>
-            </section>
-
-            <!-- Experience -->
-            <section class="cv-section">
-                <h2 class="cv-heading">Professional Experience</h2>
-
-                <div class="cv-experience-item">
-                    <div class="cv-exp-header">
-                        <h3>Data Engineer Specialist</h3>
-                        <span class="cv-date">2024 – Present</span>
-                    </div>
-                    <p class="cv-company">Horatio</p>
-                    <ul class="cv-list">
-                        <li>Architected and deployed automated ETL/ELT data pipelines using Apache Airflow (Astronomer), AWS Glue, AWS Lambda, and Snowflake, increasing data availability by 40% and reducing processing latency by 35%.</li>
-                        <li>Designed and implemented enterprise Lakehouse architecture using Snowflake and Apache Iceberg, unifying centralized data lake with cloud data warehouse to support analytics, ML, and BI workflows with improved performance and cost efficiency.</li>
-                        <li>Engineered robust data ingestion workflows to consume data from REST APIs, cloud storage, and external sources; implemented transformations for semi-structured JSON data with schema normalization and quality validation.</li>
-                        <li>Optimized Snowflake cluster configurations and SQL queries, improving query performance by 45% through index strategies, materialized views, and dynamic data transformations using Python and T-SQL.</li>
-                        <li>Developed interactive analytics applications using Streamlit deployed as Snowflake Containers, enabling self-service BI and real-time reporting; reduced dashboard creation time by 50%.</li>
-                        <li>Migrated legacy data processes from manual Google Sheets-based workflows to production-grade automated pipelines with data governance and lineage tracking, eliminating 60% of manual data operations and reducing errors by 80%.</li>
-                        <li>Implemented data quality frameworks with automated validations and monitoring; designed CI/CD pipelines for data workflow deployment.</li>
-                    </ul>
+        <section class="section">
+            <h2>Featured Projects</h2>
+            <div class="project">
+                <div class="row">
+                <strong>Call Center Analytics Platform</strong>
                 </div>
+                <p class="muted">Python, Snowflake, AWS Glue, Streamlit</p>
+                <p>Enterprise analytics platform featuring ETL pipelines for real-time KPI tracking, cost analysis, and performance dashboards integrated with Snowflake data warehouse.</p>
+                <p class="muted">Case Study: <a href="https://gramos199.github.io/my_cv/projects/call-center-analytics.html" target="_blank" rel="noopener noreferrer">gramos199.github.io/my_cv/projects/call-center-analytics.html</a></p>
+            </div>
 
-                <div class="cv-experience-item">
-                    <div class="cv-exp-header">
-                        <h3>Data Analytics Specialist / Implementation Engineer</h3>
-                        <span class="cv-date">2021 – 2024</span>
-                    </div>
-                    <p class="cv-company">iSales Solutions</p>
-                    <ul class="cv-list">
-                        <li>Led comprehensive data platform implementations including system architecture design, ETL configuration, data migration strategies, and end-user training for CRM and analytics solutions.</li>
-                        <li>Designed centralized data layer using Airtable with relational schema design; implemented data governance standards and validation rules, ensuring data accuracy and consistency across enterprise systems.</li>
-                        <li>Built 40+ automated data workflows using Zapier and custom integrations connecting CRM platforms, cloud tools, and data repositories; eliminated 30% of manual processes and improved data synchronization reliability.</li>
-                        <li>Developed analytics infrastructure for data transformation and reporting; designed dashboards and KPI tracking systems to support business intelligence and executive decision-making.</li>
-                        <li>Created comprehensive data documentation, ETL dependency mapping, and process orchestration strategies to support scalability and maintainability.</li>
-                    </ul>
+            <div class="project">
+                <div class="row">
+                    <strong>Cloud Data Lakehouse Architecture</strong>
                 </div>
+                <p class="muted">Python, Apache Iceberg, Snowflake, dbt</p>
+                <p>Production-ready lakehouse implementing Apache Iceberg, Snowflake, and data mesh patterns for scalable analytics with unified governance and schema management.</p>
+                <p class="muted">Case Study: <a href="https://gramos199.github.io/my_cv/projects/data-lakehouse.html" target="_blank" rel="noopener noreferrer">gramos199.github.io/my_cv/projects/data-lakehouse.html</a></p>
+            </div>
 
-                <div class="cv-experience-item">
-                    <div class="cv-exp-header">
-                        <h3>Data Analytics & Process Automation Analyst</h3>
-                        <span class="cv-date">2018 – 2020</span>
-                    </div>
-                    <p class="cv-company">CORASA</p>
-                    <ul class="cv-list">
-                        <li>Analyzed complex operational datasets related to customs processes; performed statistical analysis and data mining to identify process bottlenecks and automation opportunities, reducing processing time by 25%.</li>
-                        <li>Developed dashboards, KPI reports, and automated reports using Excel/VBA and SQL queries to track operational metrics and regulatory compliance; delivered insights to support strategic planning and operational optimization.</li>
-                        <li>Designed automated data collection and aggregation procedures to consolidate data from multiple sources; implemented data quality checks and validation rules to ensure accuracy of critical operational metrics.</li>
-                        <li>Collaborated with stakeholders to understand data requirements; translated business needs into technical specifications for data solutions and process improvements.</li>
-                    </ul>
+            <div class="project">
+                <div class="row">
+                    <strong>Automated Data Quality Framework</strong>
                 </div>
-            </section>
+                <p class="muted">Python, Great Expectations, SQL, Snowflake</p>
+                <p>Enterprise-grade data quality monitoring and validation system with automated testing, SLA tracking, and alerting for production data pipelines at scale.</p>
+                <p class="muted">Case Study: <a href="https://gramos199.github.io/my_cv/projects/data-quality-framework.html" target="_blank" rel="noopener noreferrer">gramos199.github.io/my_cv/projects/data-quality-framework.html</a></p>
+            </div>
+        </section>
 
-            <!-- Core Skills -->
-            <section class="cv-section">
-                <h2 class="cv-heading">Core Competencies</h2>
-                <div class="cv-skills-grid">
-                    <div class="cv-skill-box">
-                        <h4>Data Architecture & Design</h4>
-                        <p>Enterprise data modeling, Lakehouse architecture, Data warehousing design, Scalable data schemas</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>ETL/ELT Development</h4>
-                        <p>Pipeline design and optimization, Data ingestion, Data transformation, Error handling and recovery</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>Cloud Platforms & Services</h4>
-                        <p>Snowflake, AWS (Glue, Lambda, S3, EC2), Apache Iceberg, Data lake implementation</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>Workflow Orchestration</h4>
-                        <p>Apache Airflow, Astronomer, Pipeline scheduling and monitoring, Dependency management</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>Programming & Languages</h4>
-                        <p>Python (Pandas, NumPy), SQL (advanced), Object-oriented design, API integration</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>Data Quality & Governance</h4>
-                        <p>Data validation frameworks, Quality metrics and monitoring, Data lineage tracking, SLA management</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>Analytics & BI</h4>
-                        <p>Streamlit application development, Power BI, Dashboard design, Business intelligence enablement</p>
-                    </div>
-                    <div class="cv-skill-box">
-                        <h4>DevOps & Infrastructure</h4>
-                        <p>Docker containerization, Git version control, CI/CD pipelines, Infrastructure as Code concepts</p>
-                    </div>
-                </div>
-            </section>
+        <section class="section">
+            <h2>Core Competencies</h2>
+            <div class="two-col">
+                <p class="skills-line"><strong>Data Architecture and Design:</strong> Enterprise data modeling, lakehouse architecture, data warehousing design, schema design, data lineage.</p>
+                <p class="skills-line"><strong>ETL/ELT Development:</strong> Pipeline design and optimization, ingestion, transformation logic, error handling, performance tuning.</p>
+                <p class="skills-line"><strong>Cloud Platforms:</strong> Snowflake, AWS Glue, AWS Lambda, S3, Apache Iceberg, cloud storage optimization.</p>
+                <p class="skills-line"><strong>Workflow Orchestration:</strong> Apache Airflow, Astronomer, DAG design, scheduling, monitoring and alerting.</p>
+                <p class="skills-line"><strong>Programming:</strong> Python (Pandas, NumPy), advanced SQL, Git, API integration, object-oriented design.</p>
+                <p class="skills-line"><strong>Data Quality and Governance:</strong> Quality frameworks, validation, SLA management, governance, metadata tracking.</p>
+                <p class="skills-line"><strong>Analytics and Reporting:</strong> KPI tracking, dashboard design, enterprise reporting, business intelligence enablement.</p>
+            </div>
+        </section>
 
-            <!-- Education -->
-            <section class="cv-section">
-                <h2 class="cv-heading">Education</h2>
-                <div class="cv-education">
-                    <h3>Computer Systems Engineering</h3>
-                    <p>Universidad Nacional Pedro Henríquez Ureña (UNPHU) | 2025</p>
-                </div>
-            </section>
+        <section class="section">
+            <h2>Education</h2>
+            <p><strong>B.S. in Computer Systems Engineering</strong> - Universidad Nacional Pedro Henriquez Urena (UNPHU), Graduated 2025.</p>
+        </section>
 
-            <!-- Certifications -->
-            <section class="cv-section">
-                <h2 class="cv-heading">Professional Certifications & Training</h2>
-                <ul class="cv-list">
-                    <li><strong>Snowflake Foundations</strong> – DataCamp | 2026</li>
-                    <li><strong>Microsoft Power BI Data Analyst</strong> – Microsoft | 2024</li>
-                    <li><strong>The Complete Guide to Airtable</strong> – Udemy | 2024</li>
-                    <li><strong>Google: AI & Productivity Business Transformation</strong> – Santander | 2024</li>
-                    <li><strong>Zapier Marketing Automation & Workflow Integration</strong> – Udemy | 2023</li>
-                </ul>
-            </section>
+        <section class="section">
+            <h2>Additional Information</h2>
+            <p>Languages: Spanish (native), English (fluent).</p>
+            <p>Contact: <a href="mailto:georgeramos199@gmail.com">georgeramos199@gmail.com</a> | <a href="https://www.linkedin.com/in/george-alejandro-ramos-tejada-1826101ba/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://github.com/GRamos199" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://gramos199.github.io/my_cv/" target="_blank" rel="noopener noreferrer">Portfolio</a></p>
+        </section>
 
-            <footer class="cv-footer">
-                <p>&copy; 2026 George A. Ramos Tejada. All rights reserved.</p>
-            </footer>
-        </main>
-    </div>
+        <footer class="footer">
+            George A. Ramos Tejada - Resume - 2026
+        </footer>
+    </main>
 </body>
 </html>
