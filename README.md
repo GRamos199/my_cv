@@ -153,7 +153,7 @@ python3 -m http.server 8000
 # Then visit: http://localhost:8000
 ```
 **Optine C: Generate CV**
-wkhtmltopdf --enable-local-file-access cv.html {your_name}_CV.pdf && ls -lh {your_name}_CV.pdf
+wkhtmltopdf --enable-local-file-access cv_generator.html {your_name}_CV.pdf && ls -lh {your_name}_CV.pdf
 
 ### 2. Edit Content
 
