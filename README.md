@@ -153,8 +153,9 @@ python3 -m http.server 8000
 # Then visit: http://localhost:8000
 ```
 **Optine C: Generate CV**
+```bash
 wkhtmltopdf --enable-local-file-access cv_generator.html {your_name}_CV.pdf && ls -lh {your_name}_CV.pdf
-
+```
 ### 2. Edit Content
 
 The site structure uses standard HTML files that are easy to edit:
